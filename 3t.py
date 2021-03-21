@@ -4,6 +4,7 @@ gato = {'1': '1', '2': '2', '3': '3',
 
 
 def muestra_gato(gato):
+    ''' Muestra gato '''
     print(f"{gato['1']} | {gato['2']} | {gato['3']}")
     print("--+---+--")
     print(f"{gato['4']} | {gato['5']} | {gato['6']}")
